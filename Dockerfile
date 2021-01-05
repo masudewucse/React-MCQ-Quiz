@@ -15,7 +15,7 @@ RUN yarn --pure-lockfile
 # Install a node packages
 RUN yarn 
 # Copy everything to Docker environment
-COPY . . 
+COPY . ./ 
 # Uses port which is used to the actual application
 EXPOSE 3000 
 

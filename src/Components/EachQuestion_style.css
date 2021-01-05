@@ -1,0 +1,10 @@
+.next-question {
+  margin-top: 20px;
+}
+.each {
+  margin: 3px 0;
+}
+.wrongSelection {
+  background: rgb(255, 47, 47) !important;
+  color: white !important;
+}

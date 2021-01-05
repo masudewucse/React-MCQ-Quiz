@@ -1,0 +1,1 @@
+export const shuffleArrar = (array: any[]) =>[...array].sort(()=> Math.random() -0.5);
